@@ -1,9 +1,9 @@
 <?php
 
-namespace Task\Http\Controllers\Auth;
+namespace Taskapp\Http\Controllers\Auth;
 
-use Task\User;
-use Task\Http\Controllers\Controller;
+use Taskapp\User;
+use Taskapp\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Foundation\Auth\RegistersUsers;
 

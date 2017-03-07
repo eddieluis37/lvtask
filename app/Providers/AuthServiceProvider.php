@@ -1,6 +1,6 @@
 <?php
 
-namespace Task\Providers;
+namespace Taskapp\Providers;
 
 use Illuminate\Support\Facades\Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
@@ -13,7 +13,7 @@ class AuthServiceProvider extends ServiceProvider
      * @var array
      */
     protected $policies = [
-        'Task\Model' => 'Task\Policies\ModelPolicy',
+        'Taskapp\Model' => 'Taskapp\Policies\ModelPolicy',
     ];
 
     /**

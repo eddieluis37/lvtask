@@ -1,6 +1,6 @@
 <?php
 
-namespace Task\Exceptions;
+namespace Taskapp\Exceptions;
 
 use Exception;
 use Illuminate\Auth\AuthenticationException;

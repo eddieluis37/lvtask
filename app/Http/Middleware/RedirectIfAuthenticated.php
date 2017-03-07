@@ -1,6 +1,6 @@
 <?php
 
-namespace Task\Http\Middleware;
+namespace Taskapp\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;

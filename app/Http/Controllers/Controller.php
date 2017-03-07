@@ -1,6 +1,6 @@
 <?php
 
-namespace Task\Http\Controllers;
+namespace Taskapp\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

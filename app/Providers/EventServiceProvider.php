@@ -1,6 +1,6 @@
 <?php
 
-namespace Task\Providers;
+namespace Taskapp\Providers;
 
 use Illuminate\Support\Facades\Event;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvider;
@@ -13,8 +13,8 @@ class EventServiceProvider extends ServiceProvider
      * @var array
      */
     protected $listen = [
-        'Task\Events\SomeEvent' => [
-            'Task\Listeners\EventListener',
+        'Taskapp\Events\SomeEvent' => [
+            'Taskapp\Listeners\EventListener',
         ],
     ];
 

@@ -30,7 +30,7 @@ return [
     ],
 
     'stripe' => [
-        'model' => Task\User::class,
+        'model' => Taskapp\User::class,
         'key' => env('STRIPE_KEY'),
         'secret' => env('STRIPE_SECRET'),
     ],
