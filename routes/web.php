@@ -10,11 +10,27 @@
 | routes are loaded by the RouteServiceProvider within a group which
 | contains the "web" middleware group. Now create something great!
 |
-Route::get('/', function () {
-    return view('welcome');
-});
+|	Route::get('basico', 'Backend\UsersController@index');
+|
+|
+|
+|
+|	Route::get('users/{user}', function (Taskapp\Models\User $user) {
+|   return $user;
+|	});
+|
+|	Route::get('/', function () {
+|    return view('welcome');
+|	});
+|
 */
 
-Route::get('/', ('PagesController@home') );
-Route::get('/about', ('PagesController@about') );
-Route::get('/contact', ('PagesController@contact') );
+Route::group(['namespace'=> 'Backend'], function ()
+{
+	Route::resource('users', 'UsersController');
+
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
