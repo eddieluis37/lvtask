@@ -1,6 +1,6 @@
 <?php
 
-namespace Taskapp\Models;
+namespace Taskapp;
 
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;

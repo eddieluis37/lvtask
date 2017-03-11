@@ -1,6 +1,6 @@
 <?php
 
-namespace Taskapp\Models;
+namespace Taskapp;
 
 use Illuminate\Database\Eloquent\Model;
 
