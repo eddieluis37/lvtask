@@ -7,5 +7,8 @@ use Taskapp\Http\Controllers\Controller;
 
 class TasksController extends Controller
 {
-    //
+    public function getIndex()
+    {
+
+    }
 }

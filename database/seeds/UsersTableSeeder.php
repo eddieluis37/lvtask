@@ -11,7 +11,7 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
-        factory(Taskapp\Models\User::class)->create([
+        factory(Taskapp\User::class)->create([
 
             'name' => 'eddie',
             'email' => 'eddierada@gmail.com',
@@ -20,7 +20,7 @@ class UsersTableSeeder extends Seeder
 
         ]);
 
-        factory(Taskapp\Models\User::class, 7)->create();
+        factory(Taskapp\User::class, 7)->create();
 
     }
 }
