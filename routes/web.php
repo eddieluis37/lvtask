@@ -38,7 +38,7 @@ Route::get('/', function () {
 
 Route::group(['namespace' => 'Backend'], function () {
 
-	Route::get('task', 'TasksController@getIndex');
+	Route::get('tasks', 'TasksController@getIndex');
 
 	Route::resource('users', 'UsersController');
 
