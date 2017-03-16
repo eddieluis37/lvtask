@@ -1,25 +1,31 @@
 @extends('layouts.app')
 
 @section('content')
-
-    <table class="table table-hover">
-
-        <thead>
-        <th>Completado</th>
-        <th>nombre</th>
-        </thead>
-
-        <tbody>
-        @foreach($tasks as $task)
-            <tr>
-                <td>COMPLE</td>
-                <td>{{$task->name}}</td>
-            </tr>
-        @endforeach
-
-
-        </tbody>
-
-    </table>
-
+    <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Mis Tareas</h3>
+                </div>
+                <div class="panel-body">
+                    <table class="table table-hover">
+                        <thead>
+                        <th>Completado</th>
+                        <th>nombre</th>
+                        <th>Acciones</th>
+                        </thead>
+                        <tbody>
+                        @foreach($tasks as $task)
+                            <tr>
+                                <td>...</td>
+                                <td>{{$task->name}}</td>
+                                <td>...</td>
+                            </tr>
+                        @endforeach
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 @endsection
