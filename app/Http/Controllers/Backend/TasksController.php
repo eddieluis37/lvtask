@@ -16,4 +16,14 @@ class TasksController extends Controller
 
     }
 
+    public function getCreate()
+    {
+        return view('tasks.create');
+    }
+
+    public function postStore()
+    {
+
+    }
+
 }

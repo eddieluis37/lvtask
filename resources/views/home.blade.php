@@ -8,8 +8,6 @@
                     <div class="panel-heading">Tablero</div>
 
                     <div class="panel-body">
-
-
                         You are logged in Yii !
                         @foreach($tasks as $task)
                             {{ $task->name }} <br>
